@@ -1,0 +1,34 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/clr/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <SOAP-ENV:Body>
+    <a1:Company id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/EmployeeLib/EmployeeLib%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <name id="ref-2">SOAPTest</name>
+      <address id="ref-3">Pune</address>
+      <empList href="#ref-4" />
+      <salaryExpense>0</salaryExpense>
+    </a1:Company>
+    <a2:ArrayList id="ref-4" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Collections/System.Private.CoreLib%2C%20Version%3D6.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D7cec85d7bea7798e">
+      <_items href="#ref-5" />
+      <_size>1</_size>
+      <_version>1</_version>
+    </a2:ArrayList>
+    <SOAP-ENC:Array id="ref-5" SOAP-ENC:arrayType="xsd:anyType[4]">
+      <item href="#ref-6" />
+    </SOAP-ENC:Array>
+    <a1:Employee id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/EmployeeLib/EmployeeLib%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <id>1</id>
+      <salary>8500</salary>
+      <designation id="ref-7">Wage</designation>
+      <dept>Development</dept>
+      <Person_x002B_name id="ref-8">Pritesh</Person_x002B_name>
+      <Person_x002B_gender>true</Person_x002B_gender>
+      <Person_x002B_birth href="#ref-9" />
+      <Person_x002B_address id="ref-10">Goa</Person_x002B_address>
+      <Person_x002B_age>25</Person_x002B_age>
+    </a1:Employee>
+    <a1:Date id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/EmployeeLib/EmployeeLib%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <day>5</day>
+      <month>6</month>
+      <year>1999</year>
+    </a1:Date>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
